@@ -15,3 +15,5 @@ gem "rouge"
 gem "tzinfo-data", platforms: [:mingw, :mswin, :x64_mingw]
 gem 'wdm', '>= 0.1.0' if Gem.win_platform?
 gem "sass"
+gem "faraday-retry"
+gem "jekyll-github-metadata"
