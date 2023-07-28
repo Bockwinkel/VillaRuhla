@@ -1,5 +1,4 @@
 {% capture styles %}
   @import "alembic";
 {% endcapture %}
-<style>{{ styles }}</style>
-
+<style>{{ styles | scssify | strip_newlines }}</style>
